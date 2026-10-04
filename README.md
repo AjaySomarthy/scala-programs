@@ -1,113 +1,69 @@
-# Spark Programs
+# Scala Programs
 
-A collection of **Apache Spark programs and practical examples** created for learning and practicing Spark concepts using Scala.
+A collection of **Pure Scala programs and practice code** covering fundamental and intermediate Scala programming concepts.
 
-This repository focuses specifically on **Apache Spark** and its commonly used APIs and operations for data processing.
+This repository is focused specifically on **Scala programming** and does not contain Apache Spark-specific programs.
 
-## 📚 Spark Concepts Covered
+## 📚 Topics Covered
 
-### Spark Fundamentals
+### Core Scala
 
-* SparkSession
-* SparkContext
-* RDD basics
-* Spark architecture and execution concepts
+* Variables and Data Types
+* Operators
+* Conditional Statements
+* Loops
+* Functions
+* Anonymous Functions
+* Higher-Order Functions
+* Recursion
+* Pattern Matching
+* Classes and Objects
+* Singleton Objects
+* Companion Objects
+* Case Classes
+* Traits
+* Inheritance
+* Exception Handling
 
-### DataFrames
+### Scala Collections
 
-* Creating DataFrames
-* Selecting columns
-* Filtering data
-* Adding and modifying columns
-* Renaming columns
-* Dropping columns
-* Removing duplicate records
-* Sorting data
-* Combining DataFrames
-
-### Transformations
-
-* `select()`
-* `filter()`
-* `where()`
-* `withColumn()`
-* `withColumnRenamed()`
-* `drop()`
-* `distinct()`
-* `dropDuplicates()`
-* `union()`
-* Other commonly used DataFrame transformations
-
-### Actions
-
-* `show()`
-* `count()`
-* `collect()`
-* `first()`
-* `take()`
-* Other commonly used Spark actions
-
-### Aggregations
-
-* `groupBy()`
-* `agg()`
-* `sum()`
-* `min()`
-* `max()`
-* `avg()`
-* `count()`
-
-### Joins
-
-* Inner Join
-* Left Join
-* Right Join
-* Full Outer Join
-* Left Semi Join
-* Left Anti Join
-* Cross Join
-
-### Window Functions
-
-* `row_number()`
-* `rank()`
-* `dense_rank()`
-* `lag()`
-* `lead()`
-* Window specifications and partitioning
-
-### Conditional & Built-in Functions
-
-* `when()` / `otherwise()`
-* String functions
-* Date and timestamp functions
-* Null handling functions
-* Mathematical functions
-* Other commonly used Spark functions
-
-### Spark SQL
-
-* Creating temporary views
-* Running SQL queries using Spark
-* SQL-based DataFrame processing
+* List
+* Set
+* Map
+* Tuple
+* Array
+* `map`
+* `flatMap`
+* `filter`
+* `foreach`
+* `reduce`
+* `fold`
+* `groupBy`
+* `sortBy`
+* Other commonly used collection operations
 
 ## 🎯 Purpose
 
-This repository is created to:
+This repository is created for:
 
-* Practice Apache Spark programming
-* Understand Spark DataFrame operations
-* Learn transformations and actions
-* Practice aggregations and joins
-* Work with Spark window functions
-* Strengthen practical Spark skills
-* Prepare for Apache Spark and Big Data development roles
+* Learning and practicing Scala programming
+* Understanding Scala concepts through practical programs
+* Strengthening functional programming concepts
+* Improving problem-solving skills
+* Preparing for Scala and Big Data-related interviews
 
 ## 🛠️ Technology
 
-* **Apache Spark**
 * **Scala**
+
+## 📌 Note
+
+This repository contains **Pure Scala programs**.
+
+Apache Spark-specific concepts such as Spark DataFrames, Spark SQL, transformations, actions, and Spark APIs are maintained separately in the Spark-related repository.
 
 ## 👨‍💻 Author
 
-**Ajay Somarthy**
+**Ajay Kumar**
+
+Practicing and strengthening skills in **Scala, Apache Spark, Big Data, SQL, and Data Engineering**.
