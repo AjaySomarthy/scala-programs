@@ -59,5 +59,3 @@ This repository is created for:
 ## 👨‍💻 Author
 
 **Ajay Somarthy**
-
-Practicing and strengthening skills in **Scala, Apache Spark, Big Data, SQL, and Data Engineering**.
