@@ -1,0 +1,15 @@
+package collections.lists
+
+import scala.collection.immutable._
+
+// Creating an empty list
+object EmptyList {
+  def main(args:Array[String]):Unit={
+
+    val emptyList1 : List[Nothing] = List()        // creating an empty list
+    println("The empty list is :")
+    println(emptyList1)
+
+  }
+
+}
