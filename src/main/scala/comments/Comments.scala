@@ -1,6 +1,6 @@
-package Comments
+package comments
 
-object commentsInScala {
+object Comments {
   def main(args:Array[String]):Unit={
 
     // this is a single line comment in Scala
@@ -9,7 +9,7 @@ object commentsInScala {
     multiline comments
     in scala */
 
-    // for multiline comments ctrl + shift + forward slash
+    // for multiline comments to use /*  */   ctrl + shift + forward slash
 
   }
 
